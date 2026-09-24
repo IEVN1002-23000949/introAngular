@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IHeroes } from '../heroes';
+
 
 @Component({
   selector: 'app-heroes-list',
@@ -17,7 +19,7 @@ showImage():void{
 }
 
 
-heroes:any[]=[
+heroes:IHeroes[]=[
 {
   imagen:"https://dragonball-api.com/transformaciones/gogeta.webp",
   nombre:"Gogeta",
